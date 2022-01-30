@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/okesseko/react-command-line-game#readme",
   "dependencies": {
+    "boxen": "^6.2.1",
     "chalk": "^5.0.0",
     "chalk-animation": "^1.6.0",
     "figlet": "^1.5.2",
