@@ -9,7 +9,7 @@ async function question4(userName, addToFailList) {
     type: "rawlist",
     message: `Q4: We should add ${X_VARIABLE} to identify each element.\n  When rendering multiple components.\n  The ${X_VARIABLE} is?\n\n  Example:\n${boxen(
       `const numbers = [1, 2, 3, 4, 5];\nconst listItems = numbers.map((number) =>\n    <li ${X_VARIABLE}={number.toString()}>{number}</li>\n);`,
-      { padding: 1 }
+      { padding: 1, margin: 0.5, borderStyle: "double" }
     )}
       \n`,
     choices: ["id", "uuid", "key"],

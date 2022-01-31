@@ -19,7 +19,7 @@ async function answerHandler(isCorrect, rightAns, userName, addToFailList) {
       text: `${chalk.green(
         successMsg[Math.floor(Math.random() * 5)].replace(
           "$user",
-          chalk.bgBlue.black(userName)
+          chalk.blueBright(userName)
         )
       )}\n`,
     });
@@ -28,7 +28,7 @@ async function answerHandler(isCorrect, rightAns, userName, addToFailList) {
     spinner.error({
       text: `${chalk.redBright(
         "😥😥 Sorry, that's not the right one."
-      )}\nThe right answer is ${chalk.bgGreen.black(rightAns)}\n`,
+      )}\nThe right answer is ${chalk.green(rightAns)}\n`,
     });
   }
   await delay();

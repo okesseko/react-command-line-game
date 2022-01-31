@@ -64,7 +64,7 @@ async function welcome() {
     },
   });
   USER_NAME = nameObj.name;
-  console.log(`Hello, ${chalk.bgBlue.black(USER_NAME)}\n`);
+  console.log(`Hello, ${chalk.blueBright(USER_NAME)}\n`);
   await delay();
   console.log(`Are you ready?\nlet's get started😉\n`);
   await delay();
