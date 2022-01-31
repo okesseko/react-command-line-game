@@ -10,7 +10,7 @@ You need to choose the correct answer from three
 ## Play by npx
 use this way, you don't need to clone the project
 ```shell=
-npx 
+npx react-command-line-game
 ```
 
 ## Play by project or development
